@@ -1,7 +1,7 @@
 /*common styles*/
 
 *{
-  box-sizing: content-box;
+  box-sizing:border-box;
   margin: 0;
   padding: 0;
 }
@@ -82,6 +82,8 @@ main{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: url("./assets/foodtop/breakfast.jpg");
+    font-size: xx-large;
+   
  } 
 
  .lunch{
@@ -93,6 +95,7 @@ main{
   background-image: url("./assets/foodtop/lunch.jpg");
   background-color: rgba(231, 228, 228, 0.76);
   background-blend-mode: overlay;
+  font-size: xx-large;
  }
 
  .supper{
@@ -102,9 +105,34 @@ main{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("./assets/foodtop/dinner.jpg");
+  font-size: xx-large;
  }
 
  .occasion{
    flex: 1;
    text-align: center;
  }
+
+ /*to be continued*/
+
+  #occtype-1 td{
+   background-color: lightgray;
+   color: black;
+   font-size: xx-large;
+  
+   margin: 30px; ;
+   padding-left: 150px;
+   align-items: center;
+   
+  display: table-row-group;
+   }
+
+  #occtype-2 td{
+     padding-top: 30px;
+     font-size: xx-large;
+ }
+
+ /* to be continued*/
+
+ /*End of section-1*/
+ 
