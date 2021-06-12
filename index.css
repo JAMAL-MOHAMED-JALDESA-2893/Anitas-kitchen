@@ -39,7 +39,7 @@ main{
   font-family: serif;
   background-image: url("./assets/backgrounds/landing.jpg");
   margin-right: 20px;
-  height: 100%;
+  height: 700px;
   overflow: hidden;;
 }
 /*to be completed later*/
@@ -50,7 +50,7 @@ main{
 #nav-icon{
   width: 50px;
   height: 4px;
- color:  whitesmoke;
+  color:  whitesmoke;
   z-index: 1;
   margin: 0;
   justify-content: space-evenly;
@@ -60,3 +60,13 @@ main{
 
 /*to be completed later*/
 
+/*styling the div with class #offered*/
+
+.offered{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  
+
+
+}
