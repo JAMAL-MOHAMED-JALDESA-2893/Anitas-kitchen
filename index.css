@@ -108,9 +108,15 @@ main{
   font-size: xx-large;
  }
 
- .occasion{
+
+ .occasion-type{
+ 
    flex: 1;
-   text-align: center;
+   margin: 10px;
+   width: 100px;
+   height: 100%;
+   border-collapse: collapse;
+   font-style: none;
  }
 
  /*to be continued*/
@@ -119,20 +125,26 @@ main{
    background-color: lightgray;
    color: black;
    font-size: xx-large;
-  
-   margin: 30px; ;
-   padding-left: 150px;
+   font-stretch:normal;
+   padding-right: 90px;
    align-items: center;
-   
-  display: table-row-group;
+   text-align: center;
+   padding-left: 100px;
    }
 
   #occtype-2 td{
-     padding-top: 30px;
+     padding-top: 0px;
      font-size: xx-large;
+     padding-left: 100px;
  }
 
  /* to be continued*/
 
  /*End of section-1*/
- 
+
+
+
+
+
+
+
