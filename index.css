@@ -1,0 +1,28 @@
+/*common styles*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*body styling*/
+body{
+  height: 100%;
+  width:80% ;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+  background-color: rgb(196, 204, 201);
+}
+
+/*main section*/
+main{
+  height: 100%;
+  width:80% ;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ background-color: #e65c2e;
+}
