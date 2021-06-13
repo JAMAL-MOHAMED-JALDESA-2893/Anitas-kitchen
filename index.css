@@ -270,6 +270,16 @@ main{
      padding-right: 50px;
      padding-top: 90px;
    }
+
+   #variety{
+     display: flex;
+     flex-direction: column;
+   }
+
+   #variety p{
+     padding-top: 30px;
+     font-size: 25px;
+   }
  /*End of Section-2*/
 
 
