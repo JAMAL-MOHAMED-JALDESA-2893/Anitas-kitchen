@@ -301,7 +301,22 @@ main{
 
 /*Section-3*/
 
+.customer-container{
+  padding: 100px;
+  background-color:white;
+  height: auto;
+  width: auto;
+  margin-bottom: 0;
+}
 
+ .about{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px grey;
+    height: 250px;
+    padding: 25px;
+ }
 
 /*End of Section-3*/
 
