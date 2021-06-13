@@ -71,41 +71,43 @@ main{
   display: flex;
   flex-direction: row;
   color: whitesmoke;
-  font-style: italic;
+  font-style: normal;
   
 }
 
  .breko {
     flex: 1;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: url("./assets/foodtop/breakfast.jpg");
     font-size: xx-large;
-   
+   font-style: italic;
  } 
 
  .lunch{
   flex: 1;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 90px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("./assets/foodtop/lunch.jpg");
   background-color: rgba(231, 228, 228, 0.76);
   background-blend-mode: overlay;
   font-size: xx-large;
+  font-style: italic;
  }
 
  .supper{
   flex: 1;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 90px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("./assets/foodtop/dinner.jpg");
   font-size: xx-large;
+  font-style: italic;
  }
 
 
@@ -119,11 +121,11 @@ main{
    font-style: none;
  }
 
- /*to be continued*/
+ 
 
   #occtype-1 td{
    background-color: lightgray;
-   color: black;
+   color: rgb(73, 68, 68);
    font-size: xx-large;
    font-stretch:normal;
    padding-right: 90px;
@@ -138,9 +140,80 @@ main{
      padding-left: 100px;
  }
 
- /* to be continued*/
-
  /*End of section-1*/
+
+ /*Section-2*/
+
+ .foods-drinks{
+     background-color: whitesmoke;
+     width: auto;
+     height: auto;
+     padding: 90px;
+ }
+
+   .fast-food{
+     display: flex;
+     background-color: whitesmoke;
+     padding: 40px;
+     padding-top: 10px;
+     align-items: center;
+   }
+   
+   #fast-food-image-container{
+     padding: 40px;
+     padding-right: 30px;
+     width: 50%;
+   }
+
+   #images{
+     display: flex;
+     flex-direction: column;
+     border-radius: 4px;
+     border: 15px solid whitesmoke;
+     box-shadow: 2px 2px 5px grey;
+     overflow: hidden;
+     margin-right: 40px;
+   }
+
+   #description{
+     font-size: 23px;
+     margin-left: 10px;
+     padding: 30px;
+   }
+
+   h2{
+     margin-bottom:20px;
+     font-size: xx-large;
+     font-weight: 900;
+     color: rgb(100, 92, 92);
+   }
+
+   h4{
+     margin-bottom: 15px;
+     color: rgb(100, 89, 89);
+   }
+
+   .drinks{
+     display: flex;
+     background-color: whitesmoke;
+     margin: 40px;
+   }
+
+   #images-drinks{
+      padding: 30px;
+      padding-right: 50px;
+      width: 50%;
+   }
+
+   #drinks-pics{
+     display: flex;
+     flex-direction: row;
+     border: 15px solid whitesmoke;
+     border-radius: 4px;
+     box-shadow: 2px 2px 5px grey;
+     width: 100%;
+   }
+ /*End of Section-2*/
 
 
 
