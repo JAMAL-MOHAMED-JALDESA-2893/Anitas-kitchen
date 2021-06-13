@@ -369,6 +369,16 @@ main{
     overflow: hidden;
     height: 350px;
  }
+
+ .Subscribe{
+   width: 250px;
+   background-color: #f15a29;
+   height: 60px;
+   border-radius: 4px;
+   border: none;
+   color: whitesmoke;
+   font-size: 25px;
+ }
 /*End of Section-3*/
 
 
