@@ -213,6 +213,25 @@ main{
      box-shadow: 2px 2px 5px grey;
      width: 100%;
    }
+
+   #viewgallery{
+     color: rgb(206, 72, 20);
+     background-color: whitesmoke;
+     width: 200px;
+     height: 60px;
+     border: 1px solid red;
+     margin-top: 50px;
+   }
+
+   #viewgallery-2{
+    color: rgb(206, 72, 20);
+    background-color: whitesmoke;
+    width: 200px;
+    height: 60px;
+    border: 1px solid red;
+    margin-top: 50px;
+    margin-left: 300px;
+   }
  /*End of Section-2*/
 
 
