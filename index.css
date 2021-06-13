@@ -251,12 +251,15 @@ main{
 
    .food-cat{
      margin: 0;
-     width: 100px;
+     width: 1119px;
      border-collapse: collapse;
+     color:whitesmoke;
+     background-color: teal;
+     
    }
 
    .wrapper{
-     padding: 70px;
+     padding: 0px;
     
      height: auto;
      background-color: whitesmoke;
