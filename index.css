@@ -281,8 +281,14 @@ main{
      font-size: 25px;
    }
 
+   #index-1{
+     background-color: whitesmoke;
+     color: rgb(238, 76, 26);
+     border: 1px solid whitesmoke;
+   }
+
    th{
-     background-color: gainsboro;
+     background-color: rgb(216, 212, 212);
      padding: 15px;
      height: 70px;
      border: 1px solid rgb(200, 193, 193);
