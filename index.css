@@ -433,12 +433,12 @@ main{
    margin-right: 15px;
  }
 
- #footer{
-   color: rgb(245, 237, 237);
-   height: 50px;
-   padding: 20px;
+ footer{
+   height: 60px;
    text-align: center;
-   font-size: 16px;
+   padding-top: 25px;
+   
+   color: white;
  }
 /*End of Section-3*/
 
