@@ -431,6 +431,14 @@ main{
  #log{
    margin-right: 15px;
  }
+
+ #footer{
+   color: whitesmoke;
+   height: 50px;
+   padding: 20px;
+   text-align: center;
+   font-size: 16px;
+ }
 /*End of Section-3*/
 
 
