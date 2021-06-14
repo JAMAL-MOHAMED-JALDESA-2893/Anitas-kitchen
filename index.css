@@ -292,6 +292,7 @@ main{
      padding: 15px;
      height: 70px;
      border: 1px solid rgb(200, 193, 193);
+   
    }
 
    tr{
@@ -433,7 +434,7 @@ main{
  }
 
  #footer{
-   color: whitesmoke;
+   color: rgb(245, 237, 237);
    height: 50px;
    padding: 20px;
    text-align: center;
