@@ -370,14 +370,38 @@ main{
     height: 350px;
  }
 
+ #butts{
+   align-items: center;
+ }
+
  .Subscribe{
-   width: 250px;
+   width: 200px;
    background-color: #f15a29;
    height: 60px;
    border-radius: 4px;
    border: none;
    color: whitesmoke;
    font-size: 25px;
+   margin-top: 25px;
+ }
+
+ .textbox{
+    color: white;
+    background-color: rgb(146, 143, 143);
+    border: none;
+    width: 300px;
+    height: 60px;
+   margin-top: 0px;
+   opacity: 0.5;
+   border-radius: 3px;
+ }
+
+
+ ::placeholder{
+   padding-left: 15px;
+   color: whitesmoke;
+  font-size: x-large;
+  letter-spacing: 2px;
  }
 /*End of Section-3*/
 
