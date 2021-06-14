@@ -39,7 +39,7 @@ main{
   font-family: serif;
   background-image: url("./assets/backgrounds/landing.jpg");
   margin-right: 20px;
-  height: 700px;
+  height: 80%;
   overflow: hidden;;
 }
 
@@ -422,6 +422,14 @@ main{
 
  #last-logo h1{
    margin-left: 20px;
+ }
+
+ #p{
+   margin-bottom: 30px;
+ }
+
+ #log{
+   margin-right: 15px;
  }
 /*End of Section-3*/
 
