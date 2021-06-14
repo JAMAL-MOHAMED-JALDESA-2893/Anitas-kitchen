@@ -50,10 +50,11 @@ main{
 /*to be completed later*/
 .navigation{
   margin: 60px;
+
 }
 
 #nav-icon{
-  width: 50px;
+  width: 70px;
   height: 2px;
   color:  whitesmoke;
   z-index: 1;
